@@ -11,8 +11,6 @@ $calculadora = new Calculadora();
 $calculadora->setNumero1( $numero1 );
 $calculadora->setNumero2( $numero2 );
 
-
-
 switch($operacao){
     case 'somar';
     $calculadora->somar();
